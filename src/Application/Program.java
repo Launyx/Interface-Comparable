@@ -26,8 +26,8 @@ public class Program {
 
             Collections.sort(list);
 
-            for(String s : list){
-                System.out.println(s);
+            for(Employee emp : list){
+                System.out.println(emp.getName() + ", " + emp.getSalary());
             }
 
         }catch(IOException e){
